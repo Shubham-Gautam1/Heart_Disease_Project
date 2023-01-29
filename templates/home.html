@@ -1,0 +1,83 @@
+<html>
+    <head><title>Heart Diesease Predication</title></head>
+    <body>
+       <header class="intro-header" style="background-image: url('static/back_img1.jpg');background-size: 100% 100%;">
+       <center>
+        <table>
+            <tr>
+                <th><h1 style="font-size:30px;color:rgb(204, 69, 69);border:5px solid rgb(221, 227, 224);">Heart Disease Prediction</h1></th>
+            </tr>
+        
+        </table>
+            Fill Following medical details to know if you have future risk of Heart disease<br><br>
+            
+            <form action="./submit" method="GET">
+
+            <h1 style="font-size:20px;">Male</h1>
+            <select name="male" id="male" >
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+
+            <h1 style="font-size:20px;">Age</h1>
+            <input type="text" name="age" id="age" placeholder="Enter your age"><br><br>
+            
+
+            
+            <h1 style="font-size:20px;">Current Smoker</h1>
+            <select name="currentSmoker" id="currentSmoker" >
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+
+            <h1 style="font-size:20px;">Cigarate Per Day</h1>
+            <input type="text" name="cigsPerDay" id="cigsPerDay" placeholder="Enter no of cigarettes you smoke in one day"><br><br>
+            
+            <!-- <label for="BPMeds"> BPMeds ( whether or not the patient is on blood pressure medication): </label><br> -->
+            <h1 style="font-size:20px;">BPMeds ( whether or not the patient is on blood pressure medication):</h1>
+            <select name="BPMeds" id="BPMeds" >
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+
+            <!-- <label for="prevalentStroke"> PrevalentStroke (whether or not the patient had previously had a stroke ): </label><br> -->
+            <h1 style="font-size:20px;">PrevalentStroke (whether or not the patient had previously had a stroke )</h1>
+            <select name="prevalentStroke" id="prevalentStroke" >
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+
+            <!-- <label for="prevalentHyp"> PrevalentHyp (whether or not the patient is hypertensive): </label><br> -->
+            <h1 style="font-size:20px;">PrevalentHyp (whether or not the patient is hypertensive)</h1>
+            <select name="prevalentHyp" id="prevalentHyp" >
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+
+            <!-- <label for="diabetes"> Diabetes (whether or not the patient have diabetes): </label><br> -->
+            <h1 style="font-size:20px;">Diabetes (whether or not the patient have diabetes)</h1>
+            <select name="diabetes" id="diabetes" >
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+            <h1 style="font-size:20px;">Total Cholestrol Level</h1>
+            <input type="text" name="totChol" id="totChol" placeholder="Enter your cholesterol level"><br><br>
+            <h1 style="font-size:20px;">Systolic Blood Presure</h1>
+            <input type="text" name="sysBP" id="sysBP" placeholder="Enter your sysBP"><br><br>
+            <h1 style="font-size:20px;">Diastolic BP</h1>
+            <input type="text" name="diaBP" id="diaBP" placeholder="Enter your diaBP"><br><br>
+            <h1 style="font-size:20px;">Body Mass Index</h1>
+            <input type="text" name="BMI" id="BMI" placeholder="Enter your BMI"><br><br>
+            <h1 style="font-size:20px;">Heart Rate</h1>
+            <input type="text" name="heartRate" id="heartRate" placeholder="Enter heart rate"><br><br>
+            <h1 style="font-size:20px;">Glucose</h1>
+            <input type="text" name="glucose" id="glucose" placeholder="Enter glucose level"><br><br>
+            
+            <input type="submit" value="Submit" style="border-radius: 14px; width: 90px; height: 32px; text-align: center; text-size-adjust: 20%;">
+            </form>
+            
+
+            </div>
+        </center>
+    </body>
+</html>
